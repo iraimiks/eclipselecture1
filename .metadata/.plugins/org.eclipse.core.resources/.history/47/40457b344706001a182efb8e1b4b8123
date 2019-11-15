@@ -1,0 +1,13 @@
+package com.accenture.lecture10;
+
+public class FinalExample {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

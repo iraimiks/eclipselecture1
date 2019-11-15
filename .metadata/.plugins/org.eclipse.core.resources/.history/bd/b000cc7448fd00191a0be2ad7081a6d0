@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+
+public class HW3 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Please enter triangle size");
+		int size = scanner.nextInt();
+		for(int i=1; i <= size; i++){
+			System.out.print(i);
+		}
+	}
+
+}

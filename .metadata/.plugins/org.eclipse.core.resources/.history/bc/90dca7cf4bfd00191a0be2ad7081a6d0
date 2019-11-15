@@ -1,0 +1,18 @@
+
+public class ArrayBasics {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int size = 6;
+		
+		int[] values = new int[4];
+		
+		System.out.println(values);
+		System.out.println(values[0]);
+		System.out.println(values[4]);
+
+	}
+
+}

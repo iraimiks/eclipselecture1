@@ -1,0 +1,32 @@
+package com.accenture;
+
+class Circle{
+	double radius;
+	
+	double getRadius(){
+		return radius;
+	}
+	
+	double getArea(){
+		return radius*radius*Math.PI;
+	}
+	
+}
+
+public class HomeWork7 {
+
+//	Create a class with name Circle
+//	User should be able to define radius size for the circle using double type
+//	Class should have method which will return radius of circle getRadius()
+//	Class should have methods which will return area of circle getArea()
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Circle circle = new Circle();
+		System.out.println(circle.getArea());
+		// TODO Auto-generated method stub
+
+	}
+
+}

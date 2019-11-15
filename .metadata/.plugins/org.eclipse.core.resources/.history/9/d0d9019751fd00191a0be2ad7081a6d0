@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+
+public class HW32 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Please enter number");
+		scanner.nextInt();
+		
+		int triangleSize = scanner.nextInt();
+		System.out.println(triangleSize);
+		
+
+	}
+
+}

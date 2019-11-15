@@ -1,0 +1,25 @@
+package com.accenture;
+
+class Car{
+	String color;
+	int speed;
+	
+	void drive(){
+		System.out.println("drive");
+	}
+}
+
+public class Repeating {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Car myCar = new Car();
+		
+		myCar.drive();
+		// TODO Auto-generated method stub
+
+	}
+
+}

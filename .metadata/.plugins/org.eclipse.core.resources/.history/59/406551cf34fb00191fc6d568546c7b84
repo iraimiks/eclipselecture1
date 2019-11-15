@@ -1,0 +1,30 @@
+public class DayOfWeak {
+
+	public static void main(String[] args) {
+		int dayIndex = 2;
+//		if (dayIndex == 1) {
+//			System.out.println("Monday");
+//		} else if (dayIndex == 2) {
+//			System.out.println("Tuesday");
+//		} else if (dayIndex == 3) {
+//			System.out.println("Wendsday");
+//		} else {
+//			System.out.println("Unimplemented part");
+//			// TODO do other days
+//		}
+
+		switch (dayIndex) {
+		case 1:
+			System.out.println("Monday");
+			break;
+		case 2:
+			System.out.println("Tuesday");
+			break;
+		case 3:
+			System.out.println("Wednsday");
+			break;
+		default:
+			System.out.println("Unimplemented part, for dayIndex=" + dayIndex);
+		}
+	}
+}

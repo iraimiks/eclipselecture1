@@ -1,0 +1,52 @@
+package com.accenture.lecture9;
+
+public class BestFactoryEva {
+	String worker;
+	String Location;
+	int workerAmount = 25;
+	boolean Bancrupt;
+	void hireNewWorker(int n) {
+		if (Bancrupt == true) {
+			System.out.println("Your Factory is now BANCRUPT!");
+		} else {
+			workerAmount = workerAmount + n;
+			// ++workerAmount;
+			// workerAmount = workerAmount++;
+//	workerAmount = ++workerAmount;
+			System.out.println("In the Charlie Chocolate Factory now is working " + workerAmount + " Oompa Loompas!");
+		}
+	}
+	void fireWorker(int a) {
+		if (Bancrupt == true) {
+			System.out.println("Your Factory is now BANCRUPT!");
+		} else {
+			workerAmount = workerAmount - a;
+			System.out.println("In your Factory now working " + workerAmount + " Oompa Loompas!");
+		}
+	}
+	void fireAll() {
+		if (Bancrupt == true) {
+			System.out.println("Your Factory is now BANCRUPT!");
+		} else {
+			workerAmount = 0;
+			System.out.println("There are " + workerAmount + " Oompa Loompas in your Factory!");
+		}
+	}
+	void bancrupt() {
+		fireAll();
+		Bancrupt = true;
+		if (Bancrupt == true) {
+			System.out.println("Your Factory is now BANCRUPT!");
+		}
+		return;
+	}
+	public static void main(String[] args) {
+		BestFactoryEva ChocolateFactory = new BestFactoryEva();
+		ChocolateFactory.hireNewWorker(5);
+		ChocolateFactory.fireWorker(5);
+		ChocolateFactory.fireAll();
+		ChocolateFactory.bancrupt();
+		ChocolateFactory.fireAll();
+		ChocolateFactory.hireNewWorker(3);
+	}
+}

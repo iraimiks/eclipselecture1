@@ -1,0 +1,19 @@
+import java.util.Arrays;
+
+
+public class TwoDimArray {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int[][] grid;
+		
+		// init
+		grid = new int[4][4];
+		String content = Arrays.toString(grid);
+		System.out.println(content);
+
+	}
+
+}

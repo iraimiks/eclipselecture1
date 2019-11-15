@@ -1,0 +1,59 @@
+package com.accenture.lecture9;
+
+class Pupil {
+	private int age;
+	private int form;
+	private String name;
+
+	public Pupil(){
+		
+		System.out.println("Pupil goes to school");
+	}
+	
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getForm() {
+		return form;
+	}
+
+	public void setForm(int form) {
+		this.form = form;
+	}
+	
+	public String toString(){
+		return "name:" + name + " age:" + age + " form:" +form; 
+	}
+}
+
+public class ConstructorExample {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Pupil pupil1 = new Pupil();
+		pupil1.setAge(7);
+		pupil1.setForm(1);
+		pupil1.setName("Peter");
+		
+		System.out.println(pupil1.toString());
+	
+
+	}
+
+}

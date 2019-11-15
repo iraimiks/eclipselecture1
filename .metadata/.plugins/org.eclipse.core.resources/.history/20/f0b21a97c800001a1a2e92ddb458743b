@@ -1,0 +1,27 @@
+package com.accenture;
+class Car{
+	private String brand;
+	private int maxSpeed;
+	private String color;
+	
+	public String getBrand(){
+		return this.brand;
+	}
+	public void setBrand(String brand){
+		this.brand = brand;
+//		Take care what you assign to what
+//		brand = this.brand;
+	}
+	
+}
+public class Task3 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

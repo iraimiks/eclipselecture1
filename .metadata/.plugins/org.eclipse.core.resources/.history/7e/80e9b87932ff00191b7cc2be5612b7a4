@@ -1,0 +1,29 @@
+class User {
+	// fileds 
+	String name;
+	int age;
+	boolean man;
+}
+
+public class App {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String name = "Peter";
+		int age = 21;
+		boolean man = false;
+
+		String name1 = "Anna";
+		int age2 = 22;
+		boolean man2 = true;
+		
+		User peter = new User();
+		System.out.println(peter);
+		
+
+	}
+
+}

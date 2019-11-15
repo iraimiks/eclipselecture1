@@ -1,0 +1,24 @@
+package com.accenture;
+
+
+class Bicycle{
+	
+	
+	void direction(String side, int speed){
+		System.out.println("Side " + side + " speed" + speed + "km/h ");
+	}
+	
+}
+
+public class Arguments {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Bicycle bicycle = new Bicycle();
+		bicycle.direction("North", 5);
+
+	}
+
+}

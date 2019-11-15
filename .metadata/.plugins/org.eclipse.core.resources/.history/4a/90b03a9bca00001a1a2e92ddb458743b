@@ -1,0 +1,35 @@
+package com.accenture;
+
+class Robot{
+	String name;
+	static String factory;
+	
+	void info(){
+		System.out.println("Name " + name + " factory " + factory);
+	}
+	
+}
+public class StaticExample {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Robot robo1 = new Robot();
+		robo1.name = "robo1";
+		robo1.factory = "MikroTik";
+		robo1.info();
+		
+		Robot robo2 = new Robot();
+		robo2.factory = "MikroTik";
+		robo2.name = "robo2";
+		robo2.info();
+		
+		Robot robo3 = new Robot();
+		robo3.factory = "MikroTik";
+		robo3.name = "robo3";
+		robo3.info();
+
+	}
+
+}

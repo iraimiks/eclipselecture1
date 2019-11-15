@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;reversedArrayContent&apos; in &apos;TwoDimArray.main(...)&apos; to &apos;content&apos;&#x0A;- Original project: &apos;lecture6&apos;&#x0A;- Original element: &apos;TwoDimArray.main(String[]).reversedArrayContent&apos;&#x0A;- Renamed element: &apos;reversedArrayContent&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;reversedArrayContent&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{TwoDimArray.java[TwoDimArray~main~\[QString;@reversedArrayContent!178!229!185!204!QString;!0!false" name="content" references="true" stamp="1572699601320" version="1.0"/>
+</session>

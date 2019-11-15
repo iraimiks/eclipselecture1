@@ -1,0 +1,14 @@
+package com.accenture.lecture10;
+
+public class FinalExample {
+
+	private static final double PI = 3.14;  
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		System.out.println(PI);
+
+	}
+
+}

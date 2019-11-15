@@ -1,0 +1,23 @@
+
+public class ArrayTask2 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		/*String[] dayOfWeek = new String[7];
+		dayOfWeek[0] = "Monday";
+		dayOfWeek[1] = "Tuesday";
+		dayOfWeek[2] = "Wednsday";
+		
+		for(String dayName : dayOfWeek){
+			System.out.println(dayName);
+		}*/
+		
+		String[] dayOfWeek = {"Monday", "Tuesday", "Wednasday", "Thursday"};
+		for(String dayName : dayOfWeek){
+			System.out.println(dayName);
+		}
+	}
+
+}
